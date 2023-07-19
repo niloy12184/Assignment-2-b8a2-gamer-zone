@@ -197,5 +197,40 @@
     margin-top: -160px;
     margin-left: -80px;
 }
-
-
+/* bannner3 end */
+.footter-container{
+    border: 2px solid red;
+    width: 1330px;
+    height: 400px;
+    background: black;
+}
+.amer{
+    color: #f5f1f1;
+}
+.conteccte{
+    padding-left: 500px;
+    padding-top: 50px;
+}
+.footer-content-story{
+    color: aliceblue;
+    display: flex;
+    gap: 20px;
+    justify-content: center;
+}
+.footer-logos{
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    font-size: 30px;
+}
+.footer-content-privacy{
+    color: white;
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+}
+.Play-Games{
+    color: aliceblue;
+    display: flex;
+    justify-content: center;
+}
