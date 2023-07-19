@@ -84,5 +84,30 @@
         width: 100%;
         padding-top: 15px;
     }
+    /* card end here */
+    .banner3-container{
+    
+        flex-direction: column;
+        padding: 0px;
+        margin-top: 1400px;
+        align-items: center;
+        padding-left: 60px;
+    }
+    .banner3-content{
+    
+        text-align: center;
+        padding-right: 30px;
+        
+    }
+    .banner3-image .banner-3-image1{
+        width: 95%;
+        
+    }
+    .banner3-image .banner-3-image2{
+        width: 100px;
+        margin-top: -160px;
+        margin-left: -60px;
+    }
+    
 }
 
