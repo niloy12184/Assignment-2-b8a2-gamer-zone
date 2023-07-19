@@ -48,7 +48,7 @@
     color: rgb(255, 51, 0);
 }
 .nav-item-container .follow-btn{
-    background-color: rgb(240, 188, 19);
+    background-color: rgb(194, 191, 183);
     padding: 10px 20px;
     font-weight: 700px;
     border-radius: 10px;
@@ -202,7 +202,7 @@
 }
 /* bannner3 end */
 .game-section{
-    border: 2px solid red;
+   
     width: 1330px;
     height: 300px;
 }
@@ -216,17 +216,21 @@
     align-items: center;
 }
 .games-container{
-    display: flex;
-    justify-content: center;
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
     gap: 25px;
     margin-top: 90px;
+    
+    padding-left: 60px;
+
 }
-.games-container2{
-    display: flex;
+/* .games-container2{
+    display: grid;
     justify-content: center;
     gap: 25px;
     margin-top: 40px;
-}
+    
+} */
 .game-section p:hover {
     color: rgb(250, 133, 0);
     border: 2px solid rgb(0, 0, 0);
@@ -242,35 +246,52 @@
 
 
 .footter-container{
-    border: 2px solid red;
+    
     width: 1330px;
     height: 400px;
     background: black;
+    padding-top: 30px;
 }
 .amer{
     color: #f5f1f1;
 }
 .conteccte{
     padding-left: 500px;
-    padding-top: 50px;
+    
 }
 .footer-content-story{
     color: aliceblue;
-    display: flex;
-    gap: 20px;
-    justify-content: center;
+    display: grid;
+    grid-template-columns: repeat(6,1fr);
+    width: 700px;
+    height: 40px;
+    
+    align-items: center;
+    margin-left: 320px;
+    
+    
 }
 .footer-logos{
-    display: flex;
-    justify-content: center;
-    gap: 20px;
+    display: grid;
+    grid-template-columns: repeat(6,1fr);
     font-size: 30px;
+    width: 700px;
+    height: 40px;
+    
+    align-items: center;
+    margin-left: 320px;
+    margin-top: -20px;
 }
 .footer-content-privacy{
     color: white;
-    display: flex;
-    justify-content: center;
-    gap: 20px;
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+    width: 700px;
+    height: 40px;
+    
+    align-items: center;
+    margin-left: 320px;
+    margin-top: 30px;
 }
 .Play-Games{
     color: aliceblue;
