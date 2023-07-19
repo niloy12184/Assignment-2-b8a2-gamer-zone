@@ -43,5 +43,46 @@
         padding-left: 20px;
         margin-top: 20px;
     }
+    .bannertwo-container{
+        flex-direction: column;
+        width: 100%;
+        align-items: center;
+    }
+    .bannertwo-content{
+        text-align: center;
+        width: auto;
+        padding-left: 40px;
+        margin-top: -30px;
+    }
+    .bannertwo-image{
+        width: 100%;
+    }
+    .section-contect3{
+        text-align: center;
+        padding-top: 200px;
+    }
+    .cards{
+        flex-direction: column;
+        width: 100%;
+        align-items: center;
+
+    }
+    .card1{
+        width: 100%;
+        padding-top: 15px;
+    }
+    .card2{
+        width: 100%;
+        
+    }
+    .card3{
+        width: 100%;
+        
+    
+    }
+    .card4{
+        width: 100%;
+        padding-top: 15px;
+    }
 }
 
